@@ -82,7 +82,26 @@
             <div class="row">
               <div class="field">
                 <label for="kelas">Kelas <span class="req">*</span></label>
-                <input id="kelas" name="kelas" type="text" maxlength="60" placeholder="Contoh: X, XI, atau XII" required>
+                <select id="kelas" name="kelas" required>
+                  <option value="">Pilih kelas</option>
+                  <optgroup label="Kelas X">
+                    <option>X DKV 1</option>
+                    <option>X DKV 2</option>
+                    <option>X APHP</option>
+                  </optgroup>
+                  <optgroup label="Kelas XI">
+                    <option>XI DKV 1</option>
+                    <option>XI DKV 2</option>
+                    <option>XI DKV 3</option>
+                    <option>XI APHP</option>
+                  </optgroup>
+                  <optgroup label="Kelas XII">
+                    <option>XII DKV 1</option>
+                    <option>XII DKV 2</option>
+                    <option>XII DKV 3</option>
+                    <option>XII APHP</option>
+                  </optgroup>
+                </select>
                 <p class="error" id="err-kelas"></p>
               </div>
               <div class="field">
