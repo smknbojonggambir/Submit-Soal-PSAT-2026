@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2a5b">
+  <title>Submit Soal PSAT 2026 - SMK Negeri Bojonggambir</title>
+  <meta name="description" content="Formulir pengumpulan soal PSAT 2026 SMK Negeri Bojonggambir">
+  <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz1tbb8TSawO2lHGi_GXN3Il5CtrN_K125hSy7D8NxvBFL6bywiebvkalj_6oRIBVxEm_zj84j6ZAlhKmaEOqjIeGHXe9SWw0HQipKs3aL8iy7K1Dc_Pd9SHMVZsOQrb99qTK78Wmee7StIKKzzfST5YU_CkGSAz3MuMJsrSL_nHt37c5AzIe8B7HodnQ/s320/LOGO%20SMKN%20BOJONGGAMBIR.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="logo">
+        <img data-fallback="SMK" referrerpolicy="no-referrer" alt="Logo SMK Negeri Bojonggambir"
+             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz1tbb8TSawO2lHGi_GXN3Il5CtrN_K125hSy7D8NxvBFL6bywiebvkalj_6oRIBVxEm_zj84j6ZAlhKmaEOqjIeGHXe9SWw0HQipKs3aL8iy7K1Dc_Pd9SHMVZsOQrb99qTK78Wmee7StIKKzzfST5YU_CkGSAz3MuMJsrSL_nHt37c5AzIe8B7HodnQ/s320/LOGO%20SMKN%20BOJONGGAMBIR.png">
+      </div>
+      <div class="hero-text">
+        <span class="badge">Panitia PSAT 2026</span>
+        <h1>Submit Soal PSAT 2026</h1>
+        <p>SMK Negeri Bojonggambir</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container layout">
+    <aside class="sidebar">
+      <figure class="card principal">
+        <div class="photo">
+          <img data-fallback="Foto" referrerpolicy="no-referrer" alt="Foto Kepala SMK Negeri Bojonggambir"
+               src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKNGHFirdS2hyphenhyphen1_gDmVWFBnUytKZtnNQIli7SxObKmbkHZFi3Cz8oTOHzMPbvj6FvbRx0pvPore3vIkjSNiteoWoG1J_ogYeQU9sdIfMW-kTxYKL163g1n49NsoiQc5zITxhJnzyTKHEaXecFl8CFCPaHCGYhlwxMLXxtj9fkNi1CkuKOw6EBNu9a5hE0/s320/ABDUSSOMAD.jpeg">
+        </div>
+        <figcaption>
+          <strong>Abdussomad</strong>
+          <span>Kepala SMK Negeri Bojonggambir</span>
+        </figcaption>
+      </figure>
+
+      <section class="card info" aria-labelledby="judul-petunjuk">
+        <h2 id="judul-petunjuk">Petunjuk Pengisian</h2>
+        <p>Harap isi semua data dengan benar dan teliti. Pastikan tidak ada kesalahan penulisan, terutama pada link soal.</p>
+        <ul>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>
+            <div><strong>Periksa Link Soal:</strong> Pastikan link (URL) soal sudah dapat diakses oleh siapa saja yang memiliki link.</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            <div><strong>File Upload:</strong> File yang di-upload (Kisi-Kisi dan Soal Word) akan otomatis tersimpan di Google Drive panitia.</div>
+          </li>
+        </ul>
+      </section>
+    </aside>
+
+    <div class="content">
+      <form id="form" class="card form" novalidate>
+        <div class="progress">
+          <div class="progress-label">
+            <span>Kelengkapan isian wajib</span>
+            <strong id="progressText">0 dari 7</strong>
+          </div>
+          <progress id="progressBar" max="7" value="0" aria-label="Kelengkapan isian wajib"></progress>
+        </div>
+
+        <fieldset id="fieldset">
+          <section class="step">
+            <h2><span>1</span> Data Guru dan Mata Pelajaran</h2>
+            <div class="field">
+              <label for="namaGuru">Nama Guru <span class="req">*</span></label>
+              <input id="namaGuru" name="namaGuru" type="text" autocomplete="name" maxlength="100" placeholder="Nama lengkap beserta gelar" required>
+              <p class="error" id="err-namaGuru"></p>
+            </div>
+            <div class="field">
+              <label for="mapel">Mata Pelajaran <span class="req">*</span></label>
+              <input id="mapel" name="mapel" type="text" maxlength="100" placeholder="Contoh: Matematika" required>
+              <p class="error" id="err-mapel"></p>
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="kelas">Kelas <span class="req">*</span></label>
+                <input id="kelas" name="kelas" type="text" maxlength="60" placeholder="Contoh: X, XI, atau XII" required>
+                <p class="error" id="err-kelas"></p>
+              </div>
+              <div class="field">
+                <label for="jumlahSoal">Jumlah Soal <span class="req">*</span></label>
+                <input id="jumlahSoal" name="jumlahSoal" type="number" inputmode="numeric" min="1" max="200" step="1" placeholder="40" required>
+                <p class="error" id="err-jumlahSoal"></p>
+              </div>
+            </div>
+          </section>
+
+          <section class="step">
+            <h2><span>2</span> Link Soal</h2>
+            <div class="field">
+              <label for="linkForm">Link Google Form Soal PSAS <span class="req">*</span></label>
+              <input id="linkForm" name="linkForm" type="url" maxlength="500" placeholder="https://forms.gle/..." required>
+              <p class="warn" id="warn-linkForm"></p>
+              <p class="error" id="err-linkForm"></p>
+            </div>
+          </section>
+
+          <section class="step">
+            <h2><span>3</span> Berkas Soal</h2>
+            <div class="uploads">
+              <div class="field">
+                <span class="label">Upload Kisi-Kisi <span class="req">*</span></span>
+                <div class="drop" data-key="kisi">
+                  <input id="kisi" name="kisi" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx" aria-label="Upload Kisi-Kisi" required>
+                  <div class="drop-text">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5 5 5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+                    <strong>Klik untuk upload atau tarik dan lepas</strong>
+                    <small>PDF, DOC, DOCX, XLS, XLSX<br>Maks. <span class="max-mb">10</span> MB</small>
+                  </div>
+                </div>
+                <button type="button" class="remove" data-key="kisi" hidden>Hapus file</button>
+                <p class="error" id="err-kisi"></p>
+              </div>
+              <div class="field">
+                <span class="label">Upload Soal Word <span class="req">*</span></span>
+                <div class="drop" data-key="soal">
+                  <input id="soal" name="soal" type="file" accept=".doc,.docx" aria-label="Upload Soal Word" required>
+                  <div class="drop-text">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5 5 5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+                    <strong>Klik untuk upload atau tarik dan lepas</strong>
+                    <small>DOC, DOCX<br>Maks. <span class="max-mb">10</span> MB</small>
+                  </div>
+                </div>
+                <button type="button" class="remove" data-key="soal" hidden>Hapus file</button>
+                <p class="error" id="err-soal"></p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="catatan">Catatan (Opsional)</label>
+              <textarea id="catatan" name="catatan" rows="4" maxlength="1000" placeholder="Tulis catatan untuk panitia bila ada"></textarea>
+            </div>
+          </section>
+
+          <button type="submit" id="tombol" class="submit">Submit Soal</button>
+        </fieldset>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </form>
+
+      <section id="sukses" class="card success" tabindex="-1" hidden>
+        <div class="check" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>
+        </div>
+        <h2>Soal berhasil dikirim</h2>
+        <p>Simpan nomor bukti berikut:</p>
+        <p class="receipt" id="nomorBukti"></p>
+        <p id="ringkasan"></p>
+        <button type="button" id="kirimLagi" class="submit">Kirim soal lain</button>
+      </section>
+    </div>
+  </main>
+
+  <footer>Panitia PSAT 2026 · SMK Negeri Bojonggambir</footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
